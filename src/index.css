@@ -12,6 +12,8 @@ code {
     monospace;
 }
 
+/* Navbar */
+
 .navbar-component{
     background-color: black;
     padding: 10px;
@@ -21,4 +23,8 @@ code {
 .nav-item-style{
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.nav-item-style a:hover{
+    color: black;
 }

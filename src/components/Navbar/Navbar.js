@@ -6,14 +6,17 @@ const Navbar = () => {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="navbar navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item text-dark nav-item-style">
+            <ul class="navbar-nav ms-auto nav-item-style">
+                <li class="nav-item ">
+                <a class="nav-link " href="/">Reviews</a>
+              </li>
+              <li class="nav-item text-dark">
                 <a class="nav-link" href="/">SignUP</a>
               </li>
-              <li class="nav-item text-dark nav-item-style">
+              <li class="nav-item text-dark">
                 <a class="nav-link" href="/">Login</a>
               </li>
-              <li class="nav-item text-dark nav-item-style">
+              <li class="nav-item text-dark">
                 <a class="nav-link" href="/"><i className="fa-solid fa-user"></i></a>
               </li>
             </ul>
