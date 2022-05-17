@@ -1,0 +1,38 @@
+.card-details{
+    position: absolute;
+    z-index: 1;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.search-bar{
+    position: absolute;
+    z-index: 1;
+    left: 60px;
+}
+.display-map{
+    position: absolute;
+    z-index: 0;
+}
+
+.search-icon{
+    position: relative;
+    top: 40px;
+    left: 15px;
+}
+
+.form-input{
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border-style: groove;
+    border-color: rgb(144, 144, 144);
+    border-width: 1px;
+}
+
+.form-input:focus{
+    box-shadow: none;
+    border-color: black;
+    border-width: 2px;
+}
